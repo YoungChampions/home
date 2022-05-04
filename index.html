@@ -23,9 +23,8 @@
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit/index.html">
-          Material Kit </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="javascript:;">Young Champions</a>
+        <button type="button" class="ml-auto navbar-toggler" data-toggle="collapse" data-target="#example-navbar-transparent">
           <span class="sr-only">Toggle navigation</span>
           <span class="navbar-toggler-icon"></span>
           <span class="navbar-toggler-icon"></span>
@@ -34,39 +33,29 @@
       </div>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="material-icons">contact_mail</i> Contact
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToHeader()">
+              <i class="material-icons">home</i> Home
             </a>
-            <div class="dropdown-menu dropdown-with-icons">
-              <a href="https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html" class="dropdown-item">
-                <i class="material-icons">mail</i> Email
-              </a>
-            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Download
+              <i class="material-icons">import_contacts</i> Courses
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.creative-tim.com/product/material-kit-pro" target="_blank">
-              <i class="material-icons">unarchive</i> Upgrade to PRO
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="material-icons">app_registration</i> Registration
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter" rel="nofollow">
-              <i class="fa fa-twitter"></i>
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="material-icons">help_center</i> About
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook" rel="nofollow">
-              <i class="fa fa-facebook-square"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram" rel="nofollow">
-              <i class="fa fa-instagram"></i>
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="material-icons">support_agent</i> Staff
             </a>
           </li>
         </ul>
@@ -78,8 +67,8 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand">
-            <h1>Young Champions.</h1>
-            <h3>A Badass Bootstrap 4 UI Kit based on Material Design.</h3>
+            <h1>Welcome to Young Champions</h1>
+            <h3>Basketball | Coding | Math</h3>
           </div>
         </div>
       </div>
@@ -89,8 +78,63 @@
     <div class="section section-basic">
       <div class="container">
         <div class="title">
-          <h2>Basic Elements</h2>
+          <h2>Young Champions Programs</h2>
+          <h5>
+            Young Champions Academy offers a variety of Courses, ranging from Basketball to Programming, enriching your child and paving the way for their future.
+          </h5>
         </div>
+        <!--Cards for Courses-->
+        <div class="fluid">
+          <h3><small>Basketball Course Pricing</small></h3>
+          <!-- Tabs on Plain Card -->
+          <div class="card card-nav-tabs card-plain">
+            <div class="card-header card-header-danger">
+              <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+              <div class="nav-tabs-navigation">
+                <div class="nav-tabs-wrapper">
+                  <ul class="nav nav-tabs" data-tabs="tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#w1" data-toggle="tab">1 week</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#w2" data-toggle="tab">2 weeks</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#w4" data-toggle="tab">4 weeks</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#w6" data-toggle="tab">6 weeks</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#w8" data-toggle="tab">8 weeks</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card-body ">
+              <div class="tab-content text-center">
+                <div class="tab-pane active" id="w1">
+                  <h2>$20.00 per class - 3 classes ($60 total)</h2>
+                </div>
+                <div class="tab-pane" id="w2">
+                  <h2>$18.30 per class - 6 classes ($110 total)</h2>
+                </div>
+                <div class="tab-pane" id="w4">
+                  <h2>$15.80 per class - 12 classes ($190 total)</h2>
+                </div>
+                <div class="tab-pane" id="w6">
+                  <h2>$15.00 per class - 18 classes ($270 total)</h2>
+                </div>
+                <div class="tab-pane" id="w8">
+                  <h2>$14.2 per class - 24 classes ($340 total)</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end cards for basketball -->
+        </div>
+
         <!--  buttons -->
         <div id="buttons" class="cd-section">
           <div class="title">
@@ -772,44 +816,7 @@
               </div>
               <!-- End Tabs with icons on Card -->
             </div>
-            <div class="col-md-6">
-              <h3><small>Tabs on Plain Card</small></h3>
-              <!-- Tabs on Plain Card -->
-              <div class="card card-nav-tabs card-plain">
-                <div class="card-header card-header-danger">
-                  <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
-                  <div class="nav-tabs-navigation">
-                    <div class="nav-tabs-wrapper">
-                      <ul class="nav nav-tabs" data-tabs="tabs">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="#home" data-toggle="tab">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#updates" data-toggle="tab">Updates</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#history" data-toggle="tab">History</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body ">
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="home">
-                      <p>I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it&#x2019;s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
-                    </div>
-                    <div class="tab-pane" id="updates">
-                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                    </div>
-                    <div class="tab-pane" id="history">
-                      <p> I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Tabs on plain Card -->
-            </div>
+
           </div>
         </div>
       </div>
