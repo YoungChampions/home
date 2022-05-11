@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 
 <head>
   <meta charset="utf-8" />
@@ -34,12 +34,12 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToHeader()">
+            <a class="nav-link" href="#top">
               <i class="material-icons">home</i> Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+            <a class="nav-link" href="#head">
               <i class="material-icons">import_contacts</i> Courses
             </a>
           </li>
@@ -75,38 +75,95 @@
     </div>
   </div>
   <div class="main main-raised">
-    <div class="section section-basic">
+    <div class="section section-basic" style="background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/chevron.png');">
       <div class="container">
-        <div class="title">
+        <div class="title" id="head">
           <h2>Young Champions Programs</h2>
           <h5>
             Young Champions Academy offers a variety of Courses, ranging from Basketball to Programming, enriching your child and paving the way for their future.
           </h5>
         </div>
+        <div class="section" id="carousel">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 mr-auto ml-auto">
+                <!-- Carousel Card -->
+                <div class="card card-raised card-carousel">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" style="max-height: 217px;">
+                        <img class="d-block w-100" src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" alt="First slide">
+                        <div class="carousel-caption d-none d-block">
+                          <h4>
+                            <i class="material-icons">sports_basketball</i>
+                          <b>  Our coaches are experienced in their craft. Our coaches are all high school athletes who are very capable and can help your student improve as a basketball player. </b>
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="carousel-item" style="max-height: 217px;">
+                        <img class="d-block w-100" src="https://cph.osu.edu/sites/default/files/styles/news_brief_825_x_575/public/1920_mathbehindmodeling.jpg?itok=5EP9CJAL" alt="Second slide">
+                        <div class="carousel-caption d-none d-block">
+                          <h4 style="color: black; ">
+                            <i class="material-icons">calculate</i>
+                          <b>  Our math course provides group classes and teaches your kids what they need to know in order to succeed in school. Meetings online through zoom.</b>
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="carousel-item" style="max-height: 217px;">
+                        <img class="d-block w-100" src="https://images.wallpaperscraft.com/image/single/mask_totem_smoke_192795_2560x1080.jpg" alt="Third slide" style="height: 462px;">
+                        <div class="carousel-caption d-none d-block">
+                          <h4>
+                            <i class="material-icons">terminal</i>
+                          <b>  If you are trying to enter the world of coding, this is the place to start. Our coding classes will teach your kids the basics of coding, and help inspire them to pursue it. </b>
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <i class="material-icons">keyboard_arrow_left</i>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <i class="material-icons">keyboard_arrow_right</i>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <!--End Carousel-->
         <!--Cards for Courses-->
         <div class="fluid">
-          <h3><small>Basketball Course Pricing</small></h3>
-          <!-- Tabs on Plain Card -->
-          <div class="card card-nav-tabs card-plain">
-            <div class="card-header card-header-danger">
+          <h3><small>Tabs with Icons on Card</small></h3>
+          <!-- Tabs with icons on Card -->
+          <div class="card card-nav-tabs">
+            <div class="card-header card-header-primary">
               <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
               <div class="nav-tabs-navigation">
                 <div class="nav-tabs-wrapper">
                   <ul class="nav nav-tabs" data-tabs="tabs">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#w1" data-toggle="tab">1 week</a>
+                      <a class="nav-link active" href="#profile" data-toggle="tab">
+                        <i class="material-icons">sports_basketball</i>
+                        Basketball
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#w2" data-toggle="tab">2 weeks</a>
+                      <a class="nav-link" href="#messages" data-toggle="tab">
+                        <i class="material-icons">calculate</i>
+                        Mathematics
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#w4" data-toggle="tab">4 weeks</a>
+                      <a class="nav-link" href="#settings" data-toggle="tab">
+                        <i class="material-icons">terminal</i>
+                        Programming
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#w6" data-toggle="tab">6 weeks</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#w8" data-toggle="tab">8 weeks</a>
+                      <a class="nav-link" href="#info" data-toggle="tab">
+                        <i class="material-icons">info</i>
+                        Information
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -114,25 +171,24 @@
             </div>
             <div class="card-body ">
               <div class="tab-content text-center">
-                <div class="tab-pane active" id="w1">
-                  <h2>$20.00 per class - 3 classes ($60 total)</h2>
+                <div class="tab-pane active" id="profile">
+                  <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
                 </div>
-                <div class="tab-pane" id="w2">
-                  <h2>$18.30 per class - 6 classes ($110 total)</h2>
+                <div class="tab-pane" id="messages">
+                  <p> I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
                 </div>
-                <div class="tab-pane" id="w4">
-                  <h2>$15.80 per class - 12 classes ($190 total)</h2>
+                <div class="tab-pane" id="settings">
+                  <p>I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it&#x2019;s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
                 </div>
-                <div class="tab-pane" id="w6">
-                  <h2>$15.00 per class - 18 classes ($270 total)</h2>
-                </div>
-                <div class="tab-pane" id="w8">
-                  <h2>$14.2 per class - 24 classes ($340 total)</h2>
+                <div class="tab-pane active" id="info">
+                  <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
                 </div>
               </div>
             </div>
           </div>
-          <!-- end cards for basketball -->
+          <!-- End Tabs with icons on Card -->
+        </div>
+          <!-- end cards for courses -->
         </div>
 
         <!--  buttons -->
