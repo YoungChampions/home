@@ -37,10 +37,7 @@
 /*
 
 
-     Creative Tim Modifications
-
-     We added class btn-primary for custom styling button.
-
+    
 
 */
 
